@@ -1,6 +1,13 @@
 # variables
 # why we need variables => to store the data
 
+
+# Variables naming rules.
+# - It should be meaningful
+# - Only alphanumeric is required
+# - Variable name should start with underscore or alphabetic letter
+
+# Program to swap two numbers
 name = input("What is your name? ")
 print(name)
 length = len(name)
@@ -14,7 +21,7 @@ print("Before swapping")
 print(a)
 print(b)
 temp = a
-a = b
+
 b = temp
 print("After swapping")
 print(a)
