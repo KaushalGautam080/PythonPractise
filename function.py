@@ -1,24 +1,40 @@
-# def fib(n):
-#     a, b = 0, 2
+# # def fib(n):
+# #     a, b = 0, 2
+# #     while a < n:
+# #         print(a, end=" ")
+# #         a, b = b, a + b
+#
+#
+# def fib2(n):  # return Fibonacci series up to n
+#     """Return a list containing the Fibonacci series up to n."""
+#     result = []
+#     a, b = 0, 1
 #     while a < n:
-#         print(a, end=" ")
+#         result.append(a)  # see below
 #         a, b = b, a + b
+#     return result
+#
+#
+# f100 = fib2(100)  # call it
+# f100
+#
+# first_name = "Kaushal"
+# first_name = 1
+# print(first_name)
 
 
-def fib2(n):  # return Fibonacci series up to n
-    """Return a list containing the Fibonacci series up to n."""
-    result = []
-    a, b = 0, 1
-    while a < n:
-        result.append(a)    # see below
-        a, b = b, a+b
-    return result
+def cal_sum(a, b):
+    return a + b
 
 
-f100 = fib2(100)    # call it
-f100
+sum1 = cal_sum(1, 2)
+print(sum1)
+sum2 = cal_sum("a", "b")
+print(sum2)
 
 
-first_name = "Kaushal"
-first_name = 1
-print(first_name)
+def len_list(list):
+    print(len(list))
+
+
+len_list([1, 2, 4, 5])
