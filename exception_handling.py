@@ -15,8 +15,10 @@ b = int(input("Enter second number"))
 try:
     c = a/b
     print("output:", c)
+except ZeroDivisionError:
+    print('Cannot divide by zero!')
 except Exception as e:
-    print(e)
+    print(f"Oops error occurred and is caused by {e}")
 else:
     print("program executed successfully")
 finally:
