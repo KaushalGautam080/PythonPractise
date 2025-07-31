@@ -7,7 +7,7 @@ num = 5
 result ={}  
 def generate_dict(number):
     while not number <= 0:
-        result.update({number:pow(number,number)})
+        result.update({number:num*num})
         number -= 1
         
     print(result)
